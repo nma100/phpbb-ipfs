@@ -3,8 +3,8 @@
 
 This project integrates [Filecoin/IPFS](https://ipfs.io)  in [PhpBB Forums](https://www.phpbb.com) to manage image upload.
 
--Live site : http://phpbb-ipfs.mywire.org
--Video demo : TODO
+- Live site : http://phpbb-ipfs.mywire.org
+- Video demo : TODO
 
 ## What it does
 
