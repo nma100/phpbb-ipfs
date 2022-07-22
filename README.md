@@ -1,17 +1,14 @@
-# PhpBB-IPFS
-
-
-This project integrates [Filecoin/IPFS](https://ipfs.io)  in [PhpBB Forums](https://www.phpbb.com) to manage image upload.
+# Filecoin/IPFS X PhpBB 
 
 - Live site : http://phpbb-ipfs.mywire.org
 - Video demo : TODO
 
-## What it does
+This project integrates [IPFS](https://ipfs.io)  in [PhpBB Forums](https://www.phpbb.com) to manage image uploads.
 
-It adds a feature in the post editor of PhpBB : A button to insert an IPFS hosted image.
-The user can pick an image on filesystem, upload it, and insert the image in the post.
+It adds a new feature in the post editor : A button to insert an IPFS hosted image.
+The user can pick an image on filesystem, upload it on IPFS, and insert the image in the post.
 
-The application uses [Web.Storage API](https://web3.storage) to store files on IPFS/Filecoin.
+The application uses [Web.Storage API](https://web3.storage) to store files on IPFS network.
 
 ## Test procedure
 
@@ -23,7 +20,7 @@ The application uses [Web.Storage API](https://web3.storage) to store files on I
 - Login with account : testuser/password
 ![2](https://ipfs.io/ipfs/bafkreifwkxjzghs2bujbpur3h6ey243bfmybnbu3uvc7g7y32tddqyw3tu?filename=2.png)
 
-- Enter the test forum "Your first forum"
+- Enter the test forum
 ![3_](https://ipfs.io/ipfs/bafkreiepcs5iurewwr44c5erfib3jyl23pqte7era7elvdey3mrjqr5p7u?filename=3_.png)
 
 - Create a new topic
@@ -35,10 +32,8 @@ The application uses [Web.Storage API](https://web3.storage) to store files on I
 - Select the image file
 ![6](https://ipfs.io/ipfs/bafkreigsj7pemug5gz5n35dinqvk4m4usqaeagfrfeyckcymyzsoxmdsbu?filename=6.png)
 
-- The image is uploaded to the Filecoin/IPFS network and inserted into the post as a bbcode image tag. 
+- The image is uploaded to the IPFS network and inserted into the post using a bbcode tag
 ![8_](https://ipfs.io/ipfs/bafkreihis6dbcnlvxdmmj4y2sr57ti7e2am547oal2c5vikfopsrra24pm?filename=8_.png)
 
-- Click on submit to publish the post
+- Publish the post 
 ![9](https://ipfs.io/ipfs/bafybeib2up4kvqnlryj3o5tiyg25mcz6dqv6tqpazdsipq3vvtpe2iagu4?filename=9.png)
-
-
