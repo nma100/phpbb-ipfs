@@ -1,7 +1,7 @@
 # Filecoin/IPFS X PhpBB 
 
 - Live site : http://phpbb-ipfs.mywire.org
-- Video demo : TODO
+- Video demo : https://youtu.be/IRse5IiEr5E
 
 This project integrates [IPFS](https://ipfs.io)  in [PhpBB Forums](https://www.phpbb.com) to manage image uploads.
 
