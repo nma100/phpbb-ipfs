@@ -1,14 +1,12 @@
 # Filecoin/IPFS X PhpBB 
 
-This project integrates [IPFS](https://ipfs.io)  in [PhpBB Forums](https://www.phpbb.com) to manage image uploads.
+This project integrates [IPFS](https://ipfs.io) technology  in [PhpBB Forums](https://www.phpbb.com) to manage image uploads.
 
 It adds a new feature in the post editor : A button to insert an IPFS hosted image.
 The user can pick an image on filesystem, upload it on IPFS, and insert the image in the post.
 
 - Live site : http://phpbb-ipfs.mywire.org
 - Video demo : https://youtu.be/IRse5IiEr5E
-
-The application uses [Web.Storage API](https://web3.storage) to store files on IPFS network.
 
 ## Test procedure
 
@@ -37,3 +35,7 @@ The application uses [Web.Storage API](https://web3.storage) to store files on I
 
 - Publish the post 
 ![9](https://ipfs.io/ipfs/bafybeib2up4kvqnlryj3o5tiyg25mcz6dqv6tqpazdsipq3vvtpe2iagu4?filename=9.png)
+
+## Dependency
+This project uses [Web.Storage API](https://web3.storage) to store files on IPFS network.
+
